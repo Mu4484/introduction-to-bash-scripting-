@@ -1,0 +1,5 @@
+#!/bin/bash
+directory="/home/eanbit14/sars_cov_2/data"
+for file in "$directory"/*; do
+echo "file: $(basename "$file")"
+done
